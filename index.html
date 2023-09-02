@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirameki Total Beauty</title>
+    <meta name="description" content="美容に特化した医師が監修したサロンKirameki Total Beauty">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <!-- デザインCSS -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header class="header flex">
+      <div class="sp-header-container">
+        <h1 class="header-logo flex">
+          <a href="#">
+            <img src="./images/header/header_logo_kirameki_total_beauty.png" alt="kirameki total beauty">
+          </a>
+        </h1>
+        <!-- ハンバーガーボタン -->
+        <button type="button" class="hamburger-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <!-- ヘッダーナビメニュー -->
+      <nav class="header-nav">
+        <ul class="header-nav-ul flex">
+          <li class="header-nav-ul-li"><a href="#point">施設概要</a></li>
+          <li class="header-nav-ul-li"><a href="#access">アクセス</a></li>
+          <li class="header-nav-ul-li"><a href="#faq">お問合せ</a></li>
+          <li>
+            <a class="freetry-btn header-nav-freetry-btn" href="#">
+              無料カウンセリング<i class="fas fa-chevron-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- カバー -->
+      <section class="cover">
+        <div class="cover-slick">
+          <!-- カバー 1枚目 -->
+          <div class="slick-item">
+            <picture class="cover-slick-container">
+              <source media="(max-width: 767px)" srcset="./images/cover/cover_01_sp.jpg">
+              <source media="(min-width: 768px)" srcset="./images/cover/cover_01_pc.jpg">
+              <img src="./images/cover/cover_01_pc.jpg" alt="カバー画像1">
+            </picture>
+          </div>
+          <!-- カバー 2枚目 -->
+          <div class="slick-item">
+            <picture class="cover-slick-container">
+              <source media="(max-width: 767px)" srcset="./images/cover/cover_02_sp.jpg">
+              <source media="(min-width: 768px)" srcset="./images/cover/cover_02_pc.jpg">
+              <img src="./images/cover/cover_02_pc.jpg" alt="カバー画像2">
+            </picture>
+          </div>
+          <!-- カバー 3枚目 -->
+          <div class="slick-item">
+            <picture class="cover-slick-container">
+              <source media="(max-width: 767px)" srcset="./images/cover/cover_03_sp.jpg">
+              <source media="(min-width: 768px)" srcset="./images/cover/cover_03_pc.jpg">
+              <img src="./images/cover/cover_03_pc.jpg" alt="カバー画像3">
+            </picture>
+          </div>
+        </div>
+        <div class="cover-footer-contents-width">
+          <div class="cover-catch-wrapper">
+            <h2 class="cover-catch-text">いつまでも<br class="min-br">キレイでいたい<br>全ての女性のために</h2>
+            <a class="freetry-btn cover-freetry-btn" href="#">
+              無料カウンセリング<i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- 魅力 -->
+      <section class="appeal">
+        <div class="container">
+          <ol class="appeal-ol">
+            <li><u>魅力</u>
+              <h2>医師による<br>カウンセリング</h2>
+            </li>
+            <li><u>魅力</u>
+              <h2>安心の<br>定額料金</h2>
+            </li>
+            <li><u>魅力</u>
+              <h2>全室個室を<br>お約束</h2>
+            </li>
+            <li><u>魅力</u>
+              <h2>東京駅から<br>徒歩３分</h2>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <!-- 無料カウンセリング -->
+      <section class="contact">
+        <div class="container">
+          <h2 class="section-title break-keep">美容に特化した<wbr>医師が監修した<br class="min-br">サロン</h2>
+          <ul class="contact-ul">
+            <li><i class="far fa-square"></i>無理な勧誘は一切ありません。</li>
+            <li><i class="far fa-square"></i>必要な施術のみをご案内します。</li>
+          </ul>
+          <a class="freetry-btn" href="#">
+            無料カウンセリング<i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+      <!-- 4つの特徴 -->
+      <section class="point" id="point">
+        <div class="container">
+
+          <h2 class="section-title">4つの特徴</h2>
+          <!-- 特徴 1つ目 -->
+          <div class="point-item-container">
+            <p class="point-item-num">01.</p>
+            <h3 class="point-item-title"><span class="point-marker">美容専門医</span>による<br class="sp-br">カウンセリング</h3>
+            <table class="point-item-01-table">
+              <caption class="point-item-01-table-title break-keep">施術前にじっくり丁寧に<wbr>カウンセリング</caption>
+              <tr> <!-- 1行目 -->
+                <th>アンケート記入</th>
+                <td>
+                  約30問のアンケートを記入していただきます。<br>
+                  説明しにくい症状も感覚で記入できるよう工夫しています。
+                </td>
+              </tr>
+              <tr> <!-- 2行目 -->
+                <th>カウンセリング</th>
+                <td>
+                  カウンセリングは美容に特化した医師が担当します。<br>
+                  お気軽に美容に関するお悩みをご相談ください。
+                </td>
+              </tr>
+              <tr> <!-- 3行目 -->
+                <th>お見積もり</th>
+                <td>
+                  当サロンではその場でのお申し込みを行っておりません。<br>
+                  後日お送りするお見積もりをご確認いただきご検討ください。
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!-- 特徴 2つ目 -->
+          <div class="point-item-container">
+            <p class="point-item-num">02.</p>
+            <h3 class="point-item-title">月々の施術費用は<br class="sp-br"><span class="point-marker">19,800円(税込)</span></h3>
+            <div class="point-item-02-wrapper flex">
+              <dl>
+                <dt>入会金</dt>
+                <dd>8,800円<br class="min-br"><span>(税込)</span></dd>
+              </dl>
+              <dl>
+                <dt>月額料金</dt>
+                <dd>19,800円<br class="min-br"><span>(税込)</span></dd>
+              </dl>
+            </div>
+            <p class="point-item-caption break-keep">治療薬を処方させていただく場合は<wbr>別途費用が発生いたします</p>
+          </div>
+          <!-- 特徴 3つ目 -->
+          <div class="point-item-container">
+            <p class="point-item-num">03.</p>
+            <h3 class="point-item-title"><span class="point-marker">施術は全室個室</span>で<br class="sp-br">プライベートを確保</h3>
+            <div class="point-item-03-wrapper flex">
+              <dl>
+                <dt class="fadeup-box fadeInUpSmall animate__animated"><img src="./images/point/point3_01.jpg" alt="プライベート個室写真"></dt>
+                <dd>
+                  カーテンで区切られた半個室ではなく、扉をしめることでプライベートな時間を完全に確保できる個室をご用意しております。
+                </dd>
+              </dl>
+              <dl>
+                <dt class="fadeup-box fadeInUpSmall delay-2 animate__animated"><img src="./images/point/point3_02.jpg" alt="アロマ写真"></dt>
+                <dd>
+                  リラックスした時間をお過ごしいただくために、その時の気分に合わせて、お好きなアロマをお選びいただくことができます。
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <!-- 特徴 4つ目 -->
+          <div class="point-item-container-wide access" id="access">
+            <p class="point-item-num">04.</p>
+            <h3 class="point-item-title">アクセス便利な<br class="sp-br"><span class="point-marker">東京駅から徒歩3分</span></h3>
+            <div class="point-item-04-wrapper">
+              <iframe
+                class="point-map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6851.215265681194!2d139.76122396469881!3d35.68137644659974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1693440427299!5m2!1sja!2sjp"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+              <p class="break-keep">JR東京駅丸の内地下中央口改札から出て徒歩3分。<wbr>雨の日でも濡れずにお越しいただくことができます。</p>
+              <h4 class="break-keep">東京都中央区丸の内△-△△-△△ <wbr>◎◎◎◎◎◎ビル16階</h4>
+              <div class="point-item-04-table">
+                <ul class="point-item-04-thead">
+                  <li>&nbsp;</li>
+                  <li>&nbsp;</li>
+                  <li>月</li>
+                  <li>火</li>
+                  <li>水</li>
+                  <li>木</li>
+                  <li>金</li>
+                  <li>土</li>
+                  <li>日祝</li>
+                  <li>&nbsp;</li>
+                </ul>
+                <ul class="point-item-04-tbody">
+                  <li>&nbsp;</li>
+                  <li>午前</li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li>休</li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li>&nbsp;</li>
+                </ul>
+                <ul class="point-item-04-tbody">
+                  <li>&nbsp;</li>
+                  <li>午後</li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li>休</li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li><i class="fas fa-circle"></i></li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- 無料カウンセリング -->
+      <section class="contact contact-sp-another-layout">
+        <div class="container">
+          <h2 class="section-title break-keep">美容に特化した<wbr>医師が監修した<br class="min-br">サロン</h2>
+          <ul class="contact-ul">
+            <li><i class="far fa-square"></i>無理な勧誘は一切ありません。</li>
+            <li><i class="far fa-square"></i>必要な施術のみをご案内します。</li>
+          </ul>
+          <a class="freetry-btn" href="#">
+            無料カウンセリング<i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+      <!-- Q&A -->
+      <section class="faq" id="faq">
+        <div class="container">
+          <h2 class="section-title">FAQ</h2>
+          <div class="faq-item-container">
+            <!-- 質問1 -->
+            <dl>
+              <dt>
+                肌にアレルギーがあるのですが施術を受けることはできますか？
+                <span class="faq-toggle-btn"></span>
+              </dt>
+              <dd>カウンセリング時に医師にご相談ください。</dd>
+            </dl>
+            <!-- 質問2 -->
+            <dl>
+              <dt>
+                どれくらいの期間通うことになりますか？
+                <span class="faq-toggle-btn"></span>
+              </dt>
+              <dd>症状や施術内容によって変わりますが、半年〜1年通っていただく方が多いです。</dd>
+            </dl>
+            <!-- 質問3 -->
+            <dl>
+              <dt>
+                途中で解約することはできますか？
+                <span class="faq-toggle-btn"></span>
+              </dt>
+              <dd>いつでも途中解約することが可能です。月の途中で解約される場合はその月の月額料金は発生してしまいますので、予めご了承ください。</dd>
+            </dl>
+            <!-- 質問4 -->
+            <dl>
+              <dt>
+                アロマは何種類ありますか？
+                <span class="faq-toggle-btn"></span>
+              </dt>
+              <dd>常時50種類以上のアロマをご用意しております。ご指定の香りがある場合はカウンセリング時にご相談ください。</dd>
+            </dl>
+            <!-- 質問5 -->
+            <dl>
+              <dt>
+                施術当日はお化粧をしたままで良いですか？
+                <span class="faq-toggle-btn"></span>
+              </dt>
+              <dd>施術前にお化粧を落としていただくお部屋をご用意しておりますので、お化粧をしたままご来店いただけます。</dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <!-- 無料カウンセリング -->
+      <section class="contact contact-sp-another-layout">
+        <div class="container">
+          <h2 class="section-title break-keep">美容に特化した<wbr>医師が監修した<br class="min-br">サロン</h2>
+          <ul class="contact-ul">
+            <li><i class="far fa-square"></i>無理な勧誘は一切ありません。</li>
+            <li><i class="far fa-square"></i>必要な施術のみをご案内します。</li>
+          </ul>
+          <a class="freetry-btn" href="#">
+            無料カウンセリング<i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer-logo">
+        <a href="#">
+          <img src="./images/footer/footer_logo_kirameki_total_beauty.png" alt="kirameki total beauty">
+        </a>
+      </h2>
+      <small>&copy; 2004-2021 Kirameki Total Beauty Co. Ltd. All Rights Reserved.</small>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/main.js"></script>
+
+  </body>
+
+</html>
